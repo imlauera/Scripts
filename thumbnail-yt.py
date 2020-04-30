@@ -14,7 +14,6 @@ def get_thumbnail(url):
     # didn't find a better way to do it,lol
     THUMBNAIL_NOT_FOUND = requests.get('https://i.ytimg.com/vi/not_found/maxdefault.jpg').text
 
-    r = requests.get(url)
     ID = re.search('watch\?v=(.*)',url).group(1)
 
     thumbnails = "https://i.ytimg.com/vi/%s/maxresdefault.jpg;https://i.ytimg.com/vi/%s/hqdefault.jpg" % (ID,ID)
