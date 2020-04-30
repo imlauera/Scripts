@@ -32,4 +32,5 @@ if __name__ == '__main__':
     print('./%s <yt url>' % sys.argv[0])
     exit()
 
+  print('Be sure to remove the time variable (&t) at the end of the url')
   get_thumbnail(sys.argv[1])
