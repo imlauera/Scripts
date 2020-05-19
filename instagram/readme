@@ -7,3 +7,4 @@ data.reels_media.0.items.display_url. para obtener la imágen,
 si no entonces recuperar data.reels_media.0.items.video_resources.number.src
 
 https://elfsight.com/blog/2017/10/how-to-get-facebook-access-token/
+jq '.' instagram.json
