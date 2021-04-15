@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: argnews.glitch.me
+Token: 0e93abff4b594094180d2d816e021542fe79b5d023670afc173bf2392f73a9f6
